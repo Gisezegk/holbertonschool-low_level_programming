@@ -7,7 +7,7 @@
  
 int main(void)
 {
-char gise[] = "\"Programming is like building a multilingual puzzle";
+char alow[] = "\"Programming is like building a multilingual puzzle";
 
 puts(alow);
 
