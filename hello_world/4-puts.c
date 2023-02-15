@@ -1,2 +1,12 @@
 #!/bin/bash
-#include <string.h>int main () {char str1[15];strcpy(str1, "Programming is like building a multilingual puzzle");return(0);}
+#include<stdio.h>
+/**
+ * main - Use the function puts
+ * Return: always 0
+ */
+int main(void)
+{
+char gise[] = "\"Programming is like building a multilingual puzzle";
+puts(alow);
+return (0);
+}
