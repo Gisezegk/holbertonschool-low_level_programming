@@ -7,9 +7,12 @@
 
 int main(void)
 {
-char impres[] = "\with proper grammar, but the outcome is a piece of art,";
+char impres[] = "\"with proper grammar, but the outcome is a piece of art,";
 
 puts(impres);
 
 return (0);
 }
+
+
+
