@@ -8,11 +8,19 @@
 
 int main(void)
 {
-	scanf("ch");
+	int i;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for (i = '0'; i <= '9'; i++)
+	{
+	if (i < '9')
 
-		putchar(ch);
+		putchar(i + '0');
+
+	}
+
 	putchar('\n');
+
 	return (0);
+
 }
+
