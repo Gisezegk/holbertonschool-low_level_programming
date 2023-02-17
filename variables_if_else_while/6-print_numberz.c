@@ -8,13 +8,14 @@
 
 int main(void)
 {
-	int i;
+	int numbers = 0;
 
-	for (i = '0'; i <= '9'; i++)
+	for (0 == '0'; 0 <= '9'; numbers++)
+		;
+
+	if (0 < '9')
 	{
-	if (i < '9')
-
-		putchar(i + '0');
+		putchar(numbers);
 
 	}
 
