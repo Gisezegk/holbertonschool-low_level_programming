@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
 * main - compiled
@@ -8,20 +6,14 @@
 
 int main(void)
 {
-	int numbers = 0;
+	int ch = '0';
 
-	for (numbers == '0'; numbers <= '9'; numbers++)
-		;
-
-	if (numbers < '9')
-	{
-		putchar(numbers);
-
-	}
+	for (ch = '0'; ch <= '9'; ch++)
+		putchar(ch);
 
 	putchar('\n');
+	
 
 	return (0);
 
 }
-
