@@ -1,10 +1,11 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-#include "main.h"
 /**
- * main - Prints _putchar.
- *
- * Return: Always 0.
- */
+* main - compiled
+* Return: always 0
+*/
+
 int main(void)
 {
 
