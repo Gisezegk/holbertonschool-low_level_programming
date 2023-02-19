@@ -1,5 +1,3 @@
-12 lines (11 sloc)  133 Bytes
-
 #include "main.h"
 
 /**
