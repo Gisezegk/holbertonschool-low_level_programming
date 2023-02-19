@@ -6,8 +6,8 @@
 */
 void print_alphabet_x10(void)
 {
-	int iterator = 0;
+	int x10 = 0;
 
-	for ( ; iterator <= 9 ; iterator++)
+	for ( ; x10 <= 9 ; x10++)
 		print_alphabet();
 }
