@@ -1,24 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
+
 /**
-* main - compiled
-* Return: always 0
+* print_alphabet - prints the alphabet.
+* Return: 0
 */
 
-void print_alphabet(void);
-int main(void)
-
+void print_alphabet(void)
 {
+char alp = 'a';
 
-	char alph = 'a';
+	for (alp = 'a'; alp <= 'z'; alp++)
+	_putchar(alp);
 
-	for (alph = 'a'; alph <= 'z'; alph++)
-	{
-		putchar (alph);
+
+
+	_putchar('\n');
 }
-putchar ('\n');
-
-return (0);
-}
-
