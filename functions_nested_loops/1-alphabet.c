@@ -6,7 +6,9 @@
 * Return: always 0
 */
 
+void print_alphabet(void);
 int main(void)
+
 {
 
 	char alph = 'a';
@@ -16,6 +18,7 @@ int main(void)
 		putchar (alph);
 }
 putchar ('\n');
+
 return (0);
 }
 
