@@ -1,3 +1,5 @@
+12 lines (11 sloc)  133 Bytes
+
 #include "main.h"
 
 /**
@@ -7,6 +9,6 @@
  */
 int main(void)
 {
-	print_alphabet();
-	return (0);
+    print_alphabet();
+    return (0);
 }
