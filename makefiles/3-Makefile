@@ -15,3 +15,6 @@ oclean : $(OBJ)
 
 fclean : $(OBJ)
 	$(RM) -f $(OBJ)
+
+re: $(OBJ)
+	$(RM) -f $(OBJ)
