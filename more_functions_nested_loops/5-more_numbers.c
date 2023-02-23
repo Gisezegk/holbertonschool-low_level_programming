@@ -5,8 +5,22 @@
 */
 void more_numbers(void)
 {
-	int x10 = 0;
+	int x10;
+	int g;
+	
+	for (x10 = 0; x10 <= 9; x10++)
+	{
+		for (g = 0; g <= 14; g++)
+		{
+			if (g >= 10)
+			{
+				_putchar((g / 10) + '0');
+			}
 
-	for ( ; x10 <= 14 ; x10++)
-		more_numbers();
+			_putchar ((g % 10) + '0');
+	}
+
+		_putchar ('\n');
+
+}
 }
