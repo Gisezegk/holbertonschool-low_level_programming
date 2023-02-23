@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-* _isuppercase - is uppercase or no.
+* _isupper - is uppercase or no.
 * @c: variable for ch
 * Return: 0
 */
