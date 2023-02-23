@@ -9,11 +9,5 @@
 
 int mul(int a, int b)
 {
-int multiply;
-printf("a");
-scanf("%d",&a);
-printf("b");
-scanf("%d",&b);
-multiply = a * b;
-return (0);
+	return (a * b);
 }
