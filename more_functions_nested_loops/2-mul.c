@@ -15,6 +15,5 @@ scanf("%d",&a);
 printf("b");
 scanf("%d",&b);
 multiply = a * b;
-printf("%d * %d: %d",a , b, multiply);
 return (0);
 }
