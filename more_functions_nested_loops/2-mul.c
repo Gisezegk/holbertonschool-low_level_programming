@@ -9,9 +9,12 @@
 
 int mul(int a, int b)
 {
-	int p;
-
-	p = a * b;
-		printf("%d\n", p);
-	return (0);
+int multiply;
+printf("a - ");
+scanf("%d",&a);
+printf("b - ");
+scanf("%d",&b);
+multiply = a * b;
+printf("The multiplication of numbers %d and %d is %d",a , b, multiply);
+return (0);
 }
