@@ -2,23 +2,24 @@
 #include <stdio.h>
 
 /**
-* print_triangle - patric
+* print_triangle - print a triangle
 * @size: size
 * Return: Always 0
 */
 
 void print_triangle(int size)
 {
-        int c;
+	int c;
 	int f;
 
-        if (size > 0)
-        {
-        for (c = 0; c < size; c++)
-        {
-                for (f = 0; f < size; f++)
+	if (size > 0)
+	{
+		for (c = 0; c < size; c++)
 		{
-		if (f < size - c - 1)
+			for (f = 0; f < size; f++)
+		{
+			if
+				(f < size - c - 1)
 			{
 
 		_putchar(' ');
@@ -27,13 +28,13 @@ void print_triangle(int size)
 		else
 			{
 				_putchar(35);
-				
 			}
 		}
 		_putchar('\n');
 	}
 	}
-		else {
+		else
+		{
 			_putchar(10);
 	}
 }
