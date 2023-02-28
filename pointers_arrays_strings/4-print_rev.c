@@ -15,12 +15,12 @@ void print_rev(char *s)
 	{
 		a--;
 	}
+	s--;
 	while (a != 1)
 	{
 		s--;
 	_putchar (*s);
 	a++;
 	}
-printf("\n");
-
+	_putchar ('\n');
 }
