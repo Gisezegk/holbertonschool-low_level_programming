@@ -4,8 +4,7 @@
 /**
 * _puts - print a string
 * Return: Always 0
-* @s: value
-* @a: value
+* @str: value
 */
 
 void _puts(char *str)
