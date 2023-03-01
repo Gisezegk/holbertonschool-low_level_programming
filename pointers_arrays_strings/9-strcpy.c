@@ -10,8 +10,8 @@
 char *_strcpy(char *dest, char *src)
 {
 {
-	char *ptr = strcpy(dest, src);
-	printf("%s", ptr);
+	strcat(dest, src);
+	printf("%s", dest);
 
 }
 
