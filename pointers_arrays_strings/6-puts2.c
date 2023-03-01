@@ -18,13 +18,14 @@ void puts2(char *str)
 			{
 				break;
 			}
-			if (*str == '\0')
+			if
+				(*str == '\0')
 			{
 				  putchar ('\n');
 			}
 			str++;
+		}
 	}
-	}
-
+	putchar ('\n');
 }
 
