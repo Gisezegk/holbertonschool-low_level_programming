@@ -12,8 +12,6 @@ char *_strcpy(char *dest, char *src)
 {
 int i = 0;
 int O = 0;
-	strcat(dest, src);
-	printf("%s", dest);
 
 	while(src[i] != '\0')
 	{
