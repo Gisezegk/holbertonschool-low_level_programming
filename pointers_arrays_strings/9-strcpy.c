@@ -18,11 +18,12 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; i <= a; i++)
 	{
-		src [i] = dest[O];
+		dest[O] = src [i];
 		O++;
 	}
-	if (O == i + 1)
+	if (i + 1 == O)
 	{
+
 		dest[O] = '\0';
 	}
 	return (dest);
