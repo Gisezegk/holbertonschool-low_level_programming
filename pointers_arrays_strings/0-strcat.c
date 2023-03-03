@@ -7,7 +7,7 @@
  *_strcat - concatenates two strings.
  *Return: Always dest
  *@dest: value
- *@src: value
+ *@src: valu
  */
 
 
