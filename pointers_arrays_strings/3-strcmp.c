@@ -22,11 +22,11 @@ int _strcmp(char *s1, char *s2)
 
 	else if (s1[i] > s2[i])
 	{
-		g = 13;
+		g = -13;
 	}
 	else if (s1[i] < s2[i])
 	{
-		g = -13;
+		g = 13;
 	}
 	i++;
 }
