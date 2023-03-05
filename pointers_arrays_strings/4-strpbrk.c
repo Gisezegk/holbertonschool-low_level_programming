@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- *@s: value
- *_strpbrk - chan
+ *_strpbrk - serches a string for amy of a set of bytes
  *@accept: value
+ *@s: value
+ *Return: Always null
  */
 
 char *_strpbrk(char *s, char *accept)
