@@ -10,5 +10,6 @@
 
 int _atoi(char *s)
 {
-	printf("%d, s");
+	printf("%d", *s);
+return (0);
 }
