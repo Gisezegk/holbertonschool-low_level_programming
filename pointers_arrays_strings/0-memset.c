@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *memset - fills memory with a constant byte
+ *_memset - fills memory with a constant byte
  *@s: value
  *@b: value
  *@n: value
