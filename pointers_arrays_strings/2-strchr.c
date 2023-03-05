@@ -19,7 +19,7 @@ char *_strchr(char *s, char c)
 
 	return (NULL);
 	{
-	if (*s != c)
+	if (s == NULL)
 
 return (" ");
 	}
