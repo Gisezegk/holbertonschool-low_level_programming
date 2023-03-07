@@ -7,24 +7,15 @@
 
 int
 factorial(int n)
-
 {
-	if (n >= 10)
+	if (n == 0)
+	return (1);
+	else if (n < 0)
 	{
-		return (3628800);
+		return (-1);
 	}
-	if (n >= 5)
-	{
-		return (120);
-	}
+	return (n * factorial(n - 1));
 
-	if
-		(n < 0)
-	{
-			return (-1);
-		}
-	else
-	{
-		return (1);
-	}
+
 }
+
