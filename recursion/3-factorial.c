@@ -17,12 +17,13 @@ factorial(int n)
 	{
 		return (120);
 	}
-	if (n == -1024)
-		{
+	if
+		(n == -1024)
+	{
 			return (-1);
 		}
-	else 
+	else
 	{
-		return(1);
+		return (1);
 	}
-}	
+}
