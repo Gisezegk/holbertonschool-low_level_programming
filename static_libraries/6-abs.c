@@ -1,30 +1,22 @@
-#include"main.h"
-#include<stdio.h>
+#include "main.h"
 
 /**
- * * _abs - is positive or no.
- * * @n: variable for number
- * * Return: 0
- * */
+ *  * _abs - computes the absolute of an integer.
+ *   * @c: The number to be computed.
+ *    * Return: Absolute value of number or zero
+ *     */
 
-int print_last_digit(int n)
+int _abs(int c)
+
 {
-		n = n % 10;
 
-			if ( n >= 0 )
-					{
-								_putchar(n + '0');
-										return (n);
+		if (c < 0)
+				{
+							int abs_val;
+
+									abs_val = c * -1;
+											return (abs_val);
 												}
-
-						else 
-								{
-											n = n * -1;
-														_putchar(n + '0');
-													return(n);
-
-														}
-							
-							
+			return (c);
 }
 
