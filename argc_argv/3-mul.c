@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int
-main(int argc, char** argv)
+main(int argc, char **argv)
 {
 	int a, b;
 	int mul = 0;
@@ -10,7 +10,7 @@ main(int argc, char** argv)
 	if ((argc != 3))
 	{
 		printf("Error\n");
-		return(0);
+		return (0);
 	}
 
 	a = atoi(argv[1]);
