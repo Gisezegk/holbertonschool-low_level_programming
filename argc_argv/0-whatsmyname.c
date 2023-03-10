@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, char* argv[])
+int
+main(int foo, char *bar[])
 {
-	if (argc--)
+	if (foo--)
 	{
-		printf("%s\n", *argv++);
+		printf("%s\n", *bar++);
 	}
 		return (0);
 }
-~                                                                                                                                                                                                                                            ~                
