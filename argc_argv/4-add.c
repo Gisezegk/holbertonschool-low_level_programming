@@ -7,13 +7,11 @@ main(int argc, char* argv[])
 	int i;
 	int sum;
 
-	if(argc > 0)
+	if (argc > 0)
 	
 	{
 for (i = 1; i < argc; i++)
 {
-	:x
-
 	sum += atoi(argv[i]);
 		}
 
