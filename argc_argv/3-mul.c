@@ -7,9 +7,9 @@ main(int argc, char** argv)
 	int a, b;
 	int mul = 0;
 
-	if ((argc =! 3))
+	if ((argc != 3))
 	{
-		printf("0");
+		printf("Error\n");
 		return(0);
 	}
 
