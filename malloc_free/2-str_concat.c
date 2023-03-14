@@ -29,7 +29,7 @@ char
 
 	memcpy(content, s1, len1);
 	memcpy(content + len1, s2, len2);
+	
 	content[len1 + len2] = '\0';
-
 	return (content);
 }
