@@ -5,7 +5,6 @@ int
 {
 	int i;
 	int **init;
-
 	if (width <= 0)
 	{
 		return (NULL);
@@ -25,7 +24,7 @@ if (init == NULL)
 
 	for (i = 0; i < height; i++)
 	{
-	init[i] = malloc(width * sizeof(int) + 0);
+	init[i] = malloc(width * height * 0);
 	}
 init[i] = '\0';
 return (init);
