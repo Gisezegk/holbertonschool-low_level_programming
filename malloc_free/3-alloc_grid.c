@@ -25,7 +25,9 @@ if (init == NULL)
 
 	for (i = 0; i < height; i++)
 	{
-	init[i] = malloc(width * sizeof(int));
+	init[i] = malloc(width * sizeof(int) + 0);
 	}
+init[i] = '\0';
 return (init);
+
 }
