@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-char* _strdup(char* str)
+char
+*_strdup(char *str)
 {
 	size_t len;
 	char *new_str;
@@ -13,7 +14,7 @@ char* _strdup(char* str)
 	}
 
 	len = strlen(str) + 1;
-	new_str = (char*) malloc(len * sizeof(char));
+	new_str = (char *) malloc(len * sizeof(char));
 
 		if (new_str == NULL)
 		{
@@ -22,5 +23,5 @@ char* _strdup(char* str)
 
 		memcpy(new_str, str, len);
 
-		return new_str;
+		return (new_str);
 }
