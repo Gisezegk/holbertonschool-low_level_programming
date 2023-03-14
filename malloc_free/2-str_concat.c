@@ -10,12 +10,12 @@ char
 
 	if (s1 == NULL)
 	{
-		s1 = " ";
+		s1 = "";
 	}
 
 	if (s2 == NULL)
 	{
-		s2 = " ";
+		s2 = "";
 	}
 	len1 = strlen(s1);
 	len2 = strlen(s2);
@@ -28,8 +28,7 @@ char
 	}
 
 	memcpy(content, s1, len1);
-	memcpy(content + len1, s2, len2);
-	
+	memcpy(content + len1, s2, len2)	
 	content[len1 + len2] = '\0';
 	return (content);
 }
