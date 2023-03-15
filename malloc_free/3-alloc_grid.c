@@ -3,35 +3,35 @@
 int
 **alloc_grid(int width, int height)
 {
-	int i;
+	int i, j;
 	int **init;
-	if (width <= 0)
-	{
-		return (NULL);
-	}
-	if (height <= 0)
-	{
-		return (NULL);
-	}
 
-	init = malloc(width * height * sizeof(int));
-	
-
-if (init == NULL)
-{
-	return (NULL);
-}
+	if
+		(width <= 0 || height <= 0)
+		{
+			return (NULL);
+		}
+	init = malloc(height * sizeof(int *));
+	if (init == NULL)
+		return (NULL);
 
 	for (i = 0; i < height; i++)
 	{
-	init[i] = malloc(width * height * 0);
+		init[i] = malloc(width * sizeof(int));
+
+		if (init[i] == NULL)
+	{
+		for (j = 0; j < i; j++)
+		{
+			free(init[j]);
 	}
-for (i = 0; i < height; i++)
-{
-	init[i] = malloc(width * height * sizeof(int));
-}
-
-init[i] = '\0';
+	free(init);
+	return (NULL);
+	}
+	for (j = 0; j < width; j++)
+	{
+		init[i][j] = 0;
+	}
+	}
 return (init);
-
 }
