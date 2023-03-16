@@ -10,8 +10,7 @@ void
 
 	if (p == NULL)
 	{
-	fprintf(stderr, "malloc failed, terminating process with status 98\n");
-        exit(98);
+	exit(98);
 	}
 	return (p);
 }
