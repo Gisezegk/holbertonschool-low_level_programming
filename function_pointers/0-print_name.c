@@ -9,7 +9,8 @@ print_name(char *name, void (*f)(char *))
 	}
 }
 
-void my_print_function(char *str)
+void
+my_print_function(char *str)
 {
 	printf("The name is: %s\n", str);
 }
