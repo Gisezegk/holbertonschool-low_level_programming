@@ -5,10 +5,8 @@
 /**
  *main - Entry point. Calls the funtion to perform the operation selected
  *by the user.
- *
  *@argv: The number of argumnets passed to the program
  *@argc: An array of pointers to the strings which are the arguments.
- *
  *Return: Always 0.
  */
 
