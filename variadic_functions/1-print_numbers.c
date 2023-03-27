@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void
+print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list arg_list;
 	unsigned int i;
