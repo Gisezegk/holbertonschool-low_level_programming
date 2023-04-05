@@ -1,4 +1,11 @@
-<span style="color:blue">Creating our own printf function in C</span>
+<style> 
+p {
+color: skyblue;
+}
+</style>
+
+
+<span style="color:blue"><p>Creating our own printf function in C</p></span>
 
 <span style="color:skyblue">Requirments</span>
 Allowed editors: vi, vim, emacs
