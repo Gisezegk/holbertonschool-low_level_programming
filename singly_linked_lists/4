@@ -1,0 +1,41 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node   
+ * Description: singly linked list node structure
+ */
+
+list_t
+*add_node(list_t **head, const char *str)
+{
+	int next = *str;
+	size_t count = 0;
+list_t* new_node = (list_t*) malloc(sizeof(list_t));
+
+	new_node->len = next;
+
+	new_node->next = **head;
+
+	**head = new_node;
+
+	printf("[%d] %s\n", next->len, next->str);
+	count++;
+	next = next->next;
+
+	if (*head == NULL)
+	{
+		return (NULL);
+	}
+	else
+	{
+		return (count);
+}
+return (count);
+}
+
