@@ -26,7 +26,8 @@ list_t
 		return (*head);
 	}
 
-	while (current->next != NULL)
+	while
+		(current->next != NULL)
 		{
 			current = current->next;
 
