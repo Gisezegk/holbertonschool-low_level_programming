@@ -29,7 +29,11 @@ dlistint_t
 		i++;
 
 	}
-
+if (p == NULL)
+{
+	free(new_node);
+	return (NULL);
+}
 	new_node->prev = p;
 	new_node->next = p->next;
 
