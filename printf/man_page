@@ -1,0 +1,74 @@
+<p>.TH _PRINTF 1 2022-11-09 GNU</p>
+
+<p>.SH NAME</p>
+
+
+<p>.b   printf formatted output conversion.</p>
+
+<p>.SH SYNOPSIS</p>
+
+
+<p>.b #include <stdio.h></p>
+
+<p>.b int printf(const char *format, ...);</p>
+
+<p>.SH DESCRIPTION</p>
+
+<p>.b The functions in the printf() family produce output according to
+       a format as described below. </p>
+<p>The supported conversion specifiers are:</p>
+
+<p>.BR %d: prints a decimal integer.</p>
+<p>.BR %u: prints an unsigned decimal integer.</p>
+<p>.BR %o: prints an octal integer.</p>
+<p>.BR %x: prints a hexadecimal integer (lowercase).</p>
+<p>.BR %X: prints a hexadecimal integer (uppercase).</p>
+<p>.BR %f: prints a floating-point number in decimal notation.</p>
+<p>.BR %e: prints a floating-point number in scientific notation (lowercase).</p>
+<p>.BR %E: prints a floating-point number in scientific notation (uppercase).</p>
+<p>.BR %g: prints a floating-point number in either decimal or scientific notation, depending on the value and the precision.</p>
+<p>.BR %c: prints a character.</p>
+<p>.BR %s: prints a null-terminated string.</p>
+<p>.BR %%: prints a percent sign.</p>
+<p>.b The optional modifiers can be used to specify the width, precision, and other formatting options. The supported modifiers are:</p>
+
+<p>.BR 0: pads the field with zeros instead of spaces.</p>
+<p>.BR +: prints a plus sign for positive numbers.</p>
+<p>.BR -: left-aligns the field instead of right-aligning it.</p>
+<p>(space): prints a space for positive numbers instead of a plus sign.</p>
+<p>.BR #: adds a prefix (0 or 0x/0X) to the output of the o, x, and X conversions.</p>
+<p>.BR .*: specifies the precision for the f, e, E, and g conversions.</p>
+<p>.BR *: specifies the field width or the precision from the argument list.</p>
+<p>.b If the format string ends with a % character, the behavior is undefined.</p>
+
+<p>.SH RETURN VALUE</p>
+
+<p>.b Upon successful return, these functions return the number of
+       characters printed (excluding the null byte used to end output to
+       strings).</p>
+
+
+
+<p>.SH SEE ALSO</p>
+
+<p>.b  printf(1), asprintf(3), puts(3), scanf(3), setlocale(3),
+       strfromd(3), wcrtomb(3), wprintf(3), locale(5)</p>
+
+
+<p>.SH EXAMPLES</p>
+
+<p>#include <stdio.h></p>
+
+<p>int main()</p>
+<p>{</p>
+    printf("Hello, world!\n");</p>
+    printf("The answer is %d.\n", 42);</p>
+    printf("The temperature is %f degrees Celsius.\n", 25.0);</p>
+    printf("The word \"%s\" has %lu characters.\n", "example", strlen("example"));</p>
+    return 0;</p>
+<p>}</p>
+
+
+<p>.SH AUTHOR</p>
+
+<p>Ignacio Martinez and Giselle Nieves</p>
