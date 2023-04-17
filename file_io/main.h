@@ -1,5 +1,6 @@
 #ifndef FILES
 #define FILES
+#define BUFFER_SIZE 1024
 
 #include <stdio.h>
 #include <string.h>
